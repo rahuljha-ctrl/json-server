@@ -1,0 +1,162 @@
+{
+  "users": [
+    {
+      "id": "user-1",
+      "email": "user@example.com",
+      "name": "Demo User"
+    }
+  ],
+  "communities": [
+    {
+      "id": "community-1",
+      "name": "React Native Developers",
+      "description": "Discuss React Native patterns, libraries, and performance.",
+      "memberCount": 1282,
+      "postCount": 42,
+      "joined": true
+    },
+    {
+      "id": "community-2",
+      "name": "Mobile UX",
+      "description": "Share mobile design systems, accessibility, and UX research.",
+      "memberCount": 860,
+      "postCount": 19,
+      "joined": false
+    },
+    {
+      "id": "community-3",
+      "name": "Offline First",
+      "description": "Caching strategies, sync queues, and resilient mobile apps.",
+      "memberCount": 540,
+      "postCount": 11,
+      "joined": false
+    },
+    {
+      "id": "community-4",
+      "name": "TypeScript Tips",
+      "description": "Advanced typing patterns for large React Native codebases.",
+      "memberCount": 720,
+      "postCount": 28,
+      "joined": false
+    },
+    {
+      "id": "community-5",
+      "name": "Testing Mobile Apps",
+      "description": "Unit, integration, and E2E testing strategies for mobile.",
+      "memberCount": 410,
+      "postCount": 14,
+      "joined": false
+    },
+    {
+      "id": "community-6",
+      "name": "Design Systems",
+      "description": "Tokens, components, and cross-platform UI consistency.",
+      "memberCount": 980,
+      "postCount": 33,
+      "joined": false
+    },
+    {
+      "id": "community-7",
+      "name": "App Performance",
+      "description": "Profiling, memory, startup time, and frame drops.",
+      "memberCount": 650,
+      "postCount": 21,
+      "joined": false
+    },
+    {
+      "id": "community-8",
+      "name": "Accessibility Advocates",
+      "description": "VoiceOver, TalkBack, and inclusive mobile design.",
+      "memberCount": 390,
+      "postCount": 9,
+      "joined": false
+    },
+    {
+      "id": "community-9",
+      "name": "Startup Builders",
+      "description": "Shipping MVPs quickly without sacrificing quality.",
+      "memberCount": 1120,
+      "postCount": 48,
+      "joined": false
+    },
+    {
+      "id": "community-10",
+      "name": "API Integrations",
+      "description": "REST, GraphQL, auth, and resilient networking on mobile.",
+      "memberCount": 770,
+      "postCount": 25,
+      "joined": false
+    },
+    {
+      "id": "community-11",
+      "name": "Animations Club",
+      "description": "Reanimated, gesture handler, and delightful micro-interactions.",
+      "memberCount": 560,
+      "postCount": 16,
+      "joined": false
+    },
+    {
+      "id": "community-12",
+      "name": "Release Engineering",
+      "description": "CI/CD, TestFlight, Play Console, and rollout strategies.",
+      "memberCount": 430,
+      "postCount": 12,
+      "joined": false
+    }
+  ],
+  "posts": [
+    {
+      "id": "post-1",
+      "communityId": "community-1",
+      "title": "FlatList performance tips",
+      "body": "Memoize row components and avoid inline handlers where possible.",
+      "authorId": "user-1",
+      "authorName": "Demo User",
+      "createdAt": "2026-06-01T10:00:00.000Z"
+    },
+    {
+      "id": "post-2",
+      "communityId": "community-1",
+      "title": "Navigation typing checklist",
+      "body": "Use param lists and augment ReactNavigation RootParamList for end-to-end safety.",
+      "authorId": "user-1",
+      "authorName": "Demo User",
+      "createdAt": "2026-06-02T12:30:00.000Z"
+    },
+    {
+      "id": "post-3",
+      "communityId": "community-2",
+      "title": "Design critique framework",
+      "body": "Start with user goals, then evaluate hierarchy, contrast, and touch targets.",
+      "authorId": "user-1",
+      "authorName": "Demo User",
+      "createdAt": "2026-06-03T09:15:00.000Z"
+    },
+    {
+      "communityId": "community-9",
+      "title": "Test post",
+      "body": "Test post",
+      "authorId": "user-1",
+      "authorName": "Demo User",
+      "createdAt": "2026-06-20T15:30:06.973Z",
+      "id": "_9YFcjy"
+    }
+  ],
+  "memberships": [
+    {
+      "userId": "user-1",
+      "communityId": "community-1",
+      "id": 1
+    },
+    {
+      "userId": "user-1",
+      "communityId": "community-1",
+      "id": 2
+    },
+    {
+      "userId": "user-1",
+      "communityId": "community-1",
+      "id": 3
+    }
+  ]
+}
